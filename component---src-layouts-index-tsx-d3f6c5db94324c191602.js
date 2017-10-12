@@ -1,4 +1,42 @@
-webpackJsonp([101500727392812],{
+webpackJsonp([22676092666560,60335399758886],{
+
+/***/ "./node_modules/json-loader/index.js!./.cache/json/layout-index.json":
+/***/ (function(module, exports) {
+
+	module.exports = {"layoutContext":{}}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?{\"plugins\":[\"/Users/asl/Desktop/saig-dev/node_modules/gatsby/dist/utils/babel-plugin-extract-graphql.js\",\"/Users/asl/Desktop/saig-dev/node_modules/babel-plugin-add-module-exports/lib/index.js\",\"/Users/asl/Desktop/saig-dev/node_modules/babel-plugin-transform-object-assign/lib/index.js\"],\"presets\":[[\"/Users/asl/Desktop/saig-dev/node_modules/babel-preset-env/lib/index.js\",{\"loose\":true,\"uglify\":true,\"modules\":\"commonjs\",\"targets\":{\"browsers\":[\"> 1%\",\"last 2 versions\",\"IE >= 9\"]},\"exclude\":[\"transform-regenerator\",\"transform-es2015-typeof-symbol\"]}],\"/Users/asl/Desktop/saig-dev/node_modules/babel-preset-stage-0/lib/index.js\",\"/Users/asl/Desktop/saig-dev/node_modules/babel-preset-react/lib/index.js\"],\"cacheDirectory\":true}!./.cache/layouts/index.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	exports.__esModule = true;
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _react = __webpack_require__("./node_modules/gatsby-plugin-react-next/node_modules/react/index.js");
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _index = __webpack_require__("./src/layouts/index.tsx");
+	
+	var _index2 = _interopRequireDefault(_index);
+	
+	var _layoutIndex = __webpack_require__("./node_modules/json-loader/index.js!./.cache/json/layout-index.json");
+	
+	var _layoutIndex2 = _interopRequireDefault(_layoutIndex);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = function (props) {
+	  return _react2.default.createElement(_index2.default, _extends({}, props, _layoutIndex2.default));
+	};
+	
+	module.exports = exports["default"];
+
+/***/ }),
 
 /***/ "./node_modules/deep-equal/index.js":
 /***/ (function(module, exports, __webpack_require__) {
@@ -1283,52 +1321,105 @@ webpackJsonp([101500727392812],{
 
 /***/ }),
 
-/***/ "./src/components/PageHeader.scss":
+/***/ "./src/components/Footer.scss":
 /***/ (function(module, exports) {
 
 	// empty (null-loader)
 
 /***/ }),
 
-/***/ "./src/components/PageHeader.tsx":
+/***/ "./src/components/Footer.tsx":
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", { value: true });
 	const React = __webpack_require__("./node_modules/gatsby-plugin-react-next/node_modules/react/index.js");
-	__webpack_require__("./src/components/PageHeader.scss");
-	const PageHeader = props => React.createElement("div", { className: "pageHeader__container" }, React.createElement("div", { className: "pageHeader" }, React.createElement("h1", { className: "pageHeader__title" }, props.title), React.createElement("h2", { className: "pageHeader__subtitle" }, props.subtitle)));
-	exports.default = PageHeader;
+	const gatsby_link_1 = __webpack_require__("./node_modules/gatsby-link/index.js");
+	__webpack_require__("./src/components/Footer.scss");
+	const Footer = () => React.createElement("footer", { className: "footer__container" }, React.createElement("div", { className: "footer" }, React.createElement(gatsby_link_1.default, { to: "/", className: "footer__copyright" }, "\u00A9 SAIG 2017."), React.createElement("p", { className: "footer__text" }, "Student AI Group is a student organization at Stanford University."), React.createElement("a", { href: "https://www.facebook.com/groups/stanfordaigroup/", className: "footer__facebook", rel: "noopener noreferrer", target: "_blank" }, "Facebook")));
+	exports.default = Footer;
 
 /***/ }),
 
-/***/ "./src/templates/PermalinkPage.scss":
+/***/ "./src/components/Header.scss":
 /***/ (function(module, exports) {
 
 	// empty (null-loader)
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?{\"plugins\":[\"/Users/asl/Desktop/saig-dev/node_modules/gatsby/dist/utils/babel-plugin-extract-graphql.js\"]}!./node_modules/ts-loader/index.js?{\"compilerOptions\":{\"target\":\"esnext\",\"experimentalDecorators\":true,\"jsx\":\"react\",\"module\":\"commonjs\"},\"transpileOnly\":true}!./src/templates/PermalinkPage.tsx":
+/***/ "./src/components/Header.tsx":
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", { value: true });
 	const React = __webpack_require__("./node_modules/gatsby-plugin-react-next/node_modules/react/index.js");
+	const gatsby_link_1 = __webpack_require__("./node_modules/gatsby-link/index.js");
+	const Logo = __webpack_require__("./src/layouts/images/logo.svg");
+	__webpack_require__("./src/components/Header.scss");
+	const Header = () => React.createElement("header", { className: "header__container header__home" }, React.createElement("div", { className: "header__dashes" }), React.createElement("div", { className: "header__top" }, React.createElement(gatsby_link_1.default, { className: "header__logo-link", to: "/" }, React.createElement("img", { className: "header__logo", src: Logo, alt: "Stanford AI Group" })), React.createElement("nav", { className: "header__navbar" }, React.createElement(gatsby_link_1.default, { to: "/constitution" }, "Constitution"), React.createElement(gatsby_link_1.default, { to: "/about" }, "About"))), React.createElement("hr", { className: "header__divider" }), React.createElement("h1", { className: "header__hero" }, "A community to engage with artificial intelligence, ", React.createElement("span", { className: "italics" }, "right now"), "."));
+	exports.default = Header;
+
+/***/ }),
+
+/***/ "./src/components/HeaderPermalink.tsx":
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", { value: true });
+	const React = __webpack_require__("./node_modules/gatsby-plugin-react-next/node_modules/react/index.js");
+	const gatsby_link_1 = __webpack_require__("./node_modules/gatsby-link/index.js");
+	const Logo = __webpack_require__("./src/layouts/images/logo.svg");
+	__webpack_require__("./src/components/Header.scss");
+	const Header = props => React.createElement("header", { className: "header__container" }, React.createElement("div", { className: "header__dashes" }), React.createElement("div", { className: "header__top" }, React.createElement(gatsby_link_1.default, { className: "header__logo-link", to: "/" }, React.createElement("img", { className: "header__logo", src: Logo, alt: "Stanford AI Group" })), React.createElement("nav", { className: "header__navbar" }, React.createElement(gatsby_link_1.default, { to: "/constitution", activeClassName: "header__navbar--active" }, "Constitution"), React.createElement(gatsby_link_1.default, { to: "/about", activeClassName: "header__navbar--active" }, "About"))));
+	exports.default = Header;
+
+/***/ }),
+
+/***/ "./src/layouts/images/logo.svg":
+/***/ (function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "static/logo.35d93fe0.svg";
+
+/***/ }),
+
+/***/ "./src/layouts/index.css":
+/***/ (function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./src/layouts/index.tsx":
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", { value: true });
+	const React = __webpack_require__("./node_modules/gatsby-plugin-react-next/node_modules/react/index.js");
+	const Header_1 = __webpack_require__("./src/components/Header.tsx");
+	const HeaderPermalink_1 = __webpack_require__("./src/components/HeaderPermalink.tsx");
 	const react_helmet_1 = __webpack_require__("./node_modules/react-helmet/lib/Helmet.js");
-	const PageHeader_1 = __webpack_require__("./src/components/PageHeader.tsx");
-	__webpack_require__("./src/templates/PermalinkPage.scss");
-	const PermalinkPageTemplate = props => {
-	  const { data } = props; // data.markdownRemark holds our post data
-	  const post = data.markdownRemark;
-	  return React.createElement("div", null, React.createElement(react_helmet_1.default, { title: `${post.frontmatter.title} – Student AI Group (SAIG)` }), React.createElement("div", null, React.createElement(PageHeader_1.default, { title: post.frontmatter.title, subtitle: post.frontmatter.subtitle }), React.createElement("div", { className: "permalinkPage__content", dangerouslySetInnerHTML: { __html: post.html } })));
+	const Footer_1 = __webpack_require__("./src/components/Footer.tsx");
+	__webpack_require__("./src/layouts/index.css");
+	__webpack_require__("./src/layouts/normalize.css");
+	const TemplateWrapper = props => {
+	    const { location } = props;
+	    return React.createElement("div", null, React.createElement(react_helmet_1.default, { title: "Student AI Group (SAIG)" }), location.pathname === '/' ? React.createElement(Header_1.default, null) : React.createElement(HeaderPermalink_1.default, { pathname: location.pathname }), props.children(), React.createElement(Footer_1.default, null));
 	};
-	exports.default = PermalinkPageTemplate;
-	exports.pageQuery = "** extracted graphql fragment **";
+	exports.default = TemplateWrapper;
+
+/***/ }),
+
+/***/ "./src/layouts/normalize.css":
+/***/ (function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
 
 /***/ })
 
 });
-//# sourceMappingURL=component---src-templates-permalink-page-tsx-076f7cfaa6fe2823537b.js.map
+//# sourceMappingURL=component---src-layouts-index-tsx-d3f6c5db94324c191602.js.map

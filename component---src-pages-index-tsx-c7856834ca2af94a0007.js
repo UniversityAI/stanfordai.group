@@ -14,7 +14,7 @@ webpackJsonp([221374088121123],{
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?{\"plugins\":[\"/Users/asl/Desktop/saig/node_modules/gatsby/dist/utils/babel-plugin-extract-graphql.js\"]}!./node_modules/ts-loader/index.js?{\"compilerOptions\":{\"target\":\"esnext\",\"experimentalDecorators\":true,\"jsx\":\"react\",\"module\":\"commonjs\"},\"transpileOnly\":true}!./src/pages/index.tsx":
+/***/ "./node_modules/babel-loader/lib/index.js?{\"plugins\":[\"/Users/asl/Desktop/saig-dev/node_modules/gatsby/dist/utils/babel-plugin-extract-graphql.js\"]}!./node_modules/ts-loader/index.js?{\"compilerOptions\":{\"target\":\"esnext\",\"experimentalDecorators\":true,\"jsx\":\"react\",\"module\":\"commonjs\"},\"transpileOnly\":true}!./src/pages/index.tsx":
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
