@@ -1359,7 +1359,7 @@ webpackJsonp([22676092666560,60335399758886],{
 	const gatsby_link_1 = __webpack_require__("./node_modules/gatsby-link/index.js");
 	const Logo = __webpack_require__("./src/layouts/images/logo.svg");
 	__webpack_require__("./src/components/Header.scss");
-	const Header = () => React.createElement("header", { className: "header__container header__home" }, React.createElement("div", { className: "header__dashes" }), React.createElement("div", { className: "header__top" }, React.createElement(gatsby_link_1.default, { className: "header__logo-link", to: "/" }, React.createElement("img", { className: "header__logo", src: Logo, alt: "Stanford AI Group" })), React.createElement("nav", { className: "header__navbar" }, React.createElement(gatsby_link_1.default, { to: "/constitution" }, "Constitution"), React.createElement(gatsby_link_1.default, { to: "/about" }, "About"))), React.createElement("hr", { className: "header__divider" }), React.createElement("h1", { className: "header__hero" }, "A community to engage with artificial intelligence, ", React.createElement("span", { className: "italics" }, "right now"), "."));
+	const Header = () => React.createElement("header", { className: "header__container header__home" }, React.createElement("div", { className: "header__dashes" }), React.createElement("div", { className: "header__top" }, React.createElement(gatsby_link_1.default, { className: "header__logo-link", to: "/" }, React.createElement("img", { className: "header__logo", src: Logo, alt: "Stanford AI Group" })), React.createElement("nav", { className: "header__navbar" }, React.createElement(gatsby_link_1.default, { to: "/constitution" }, "Constitution"), React.createElement(gatsby_link_1.default, { to: "/archives" }, "Archives"), React.createElement(gatsby_link_1.default, { to: "/about" }, "About"))), React.createElement("hr", { className: "header__divider" }), React.createElement("h1", { className: "header__hero" }, "A community to engage with artificial intelligence, ", React.createElement("span", { className: "italics" }, "right now"), "."));
 	exports.default = Header;
 
 /***/ }),
@@ -1374,7 +1374,7 @@ webpackJsonp([22676092666560,60335399758886],{
 	const gatsby_link_1 = __webpack_require__("./node_modules/gatsby-link/index.js");
 	const Logo = __webpack_require__("./src/layouts/images/logo.svg");
 	__webpack_require__("./src/components/Header.scss");
-	const Header = props => React.createElement("header", { className: "header__container" }, React.createElement("div", { className: "header__dashes" }), React.createElement("div", { className: "header__top" }, React.createElement(gatsby_link_1.default, { className: "header__logo-link", to: "/" }, React.createElement("img", { className: "header__logo", src: Logo, alt: "Stanford AI Group" })), React.createElement("nav", { className: "header__navbar" }, React.createElement(gatsby_link_1.default, { to: "/constitution", activeClassName: "header__navbar--active" }, "Constitution"), React.createElement(gatsby_link_1.default, { to: "/about", activeClassName: "header__navbar--active" }, "About"))));
+	const Header = props => React.createElement("header", { className: "header__container" }, React.createElement("div", { className: "header__dashes" }), React.createElement("div", { className: "header__top" }, React.createElement(gatsby_link_1.default, { className: "header__logo-link", to: "/" }, React.createElement("img", { className: "header__logo", src: Logo, alt: "Stanford AI Group" })), React.createElement("nav", { className: "header__navbar" }, React.createElement(gatsby_link_1.default, { to: "/constitution", activeClassName: "header__navbar--active" }, "Constitution"), React.createElement(gatsby_link_1.default, { to: "/archives", activeClassName: "header__navbar--active" }, "Archives"), React.createElement(gatsby_link_1.default, { to: "/about", activeClassName: "header__navbar--active" }, "About"))));
 	exports.default = Header;
 
 /***/ }),
@@ -1422,4 +1422,4 @@ webpackJsonp([22676092666560,60335399758886],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-layouts-index-tsx-d3f6c5db94324c191602.js.map
+//# sourceMappingURL=component---src-layouts-index-tsx-c3aed5be7985b372b6e7.js.map
