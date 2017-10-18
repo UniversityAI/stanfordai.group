@@ -1,10 +1,10 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link rel="preload" href="/component---src-layouts-index-tsx-c3aed5be7985b372b6e7.js" as="script"><link rel="preload" href="/component---src-pages-404-tsx-03a18a4d2ee38fca9bea.js" as="script"><link rel="preload" href="/path---404-html-a0e39f21c11f6a62c5ab.js" as="script"><link rel="preload" href="/app-165a7dc326c85664b867.js" as="script"><link rel="preload" href="/commons-0ac9175102ab29c567dd.js" as="script"><script id="webpack-manifest">
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link rel="preload" href="/component---src-layouts-index-tsx-c3aed5be7985b372b6e7.js" as="script"><link rel="preload" href="/component---src-pages-404-tsx-03a18a4d2ee38fca9bea.js" as="script"><link rel="preload" href="/path---404-html-a0e39f21c11f6a62c5ab.js" as="script"><link rel="preload" href="/app-98fe0b92832b3a94f027.js" as="script"><link rel="preload" href="/commons-0ac9175102ab29c567dd.js" as="script"><script id="webpack-manifest">
             //<![CDATA[
-            window.webpackManifest = {"231608221292675":"app-165a7dc326c85664b867.js","101500727392812":"component---src-templates-permalink-page-tsx-076f7cfaa6fe2823537b.js","178469467687848":"component---src-pages-404-tsx-03a18a4d2ee38fca9bea.js","221374088121123":"component---src-pages-index-tsx-c7856834ca2af94a0007.js","60335399758886":"path----557518bd178906f8d58a.js","66145460603085":"path---archives-ebf7c60542c8bcfbc7bc.js","30168729005121":"path---constitution-7d975988382e4595b456.js","273950069227526":"path---about-575f4947054592f5c418.js","254022195166212":"path---404-a0e39f21c11f6a62c5ab.js","142629428675168":"path---index-a0e39f21c11f6a62c5ab.js","178698757827068":"path---404-html-a0e39f21c11f6a62c5ab.js","22676092666560":"component---src-layouts-index-tsx-c3aed5be7985b372b6e7.js"}
+            window.webpackManifest = {"231608221292675":"app-98fe0b92832b3a94f027.js","101500727392812":"component---src-templates-permalink-page-tsx-076f7cfaa6fe2823537b.js","178469467687848":"component---src-pages-404-tsx-03a18a4d2ee38fca9bea.js","221374088121123":"component---src-pages-index-tsx-d0d1c512b6fbc2474ae4.js","60335399758886":"path----557518bd178906f8d58a.js","30168729005121":"path---constitution-7d975988382e4595b456.js","273950069227526":"path---about-575f4947054592f5c418.js","66145460603085":"path---archives-ebf7c60542c8bcfbc7bc.js","254022195166212":"path---404-a0e39f21c11f6a62c5ab.js","142629428675168":"path---index-f40f598559045cadefd5.js","178698757827068":"path---404-html-a0e39f21c11f6a62c5ab.js","22676092666560":"component---src-layouts-index-tsx-c3aed5be7985b372b6e7.js"}
             //]]>
             </script><title data-react-helmet="true">Student AI Group (SAIG)</title><link rel="sitemap" type="application/xml" href="/sitemap.xml"><script>
   !function(e,t,r){function n(){for(;d[0]&&"loaded"==d[0][f];)c=d.shift(),c[o]=!i.parentNode.insertBefore(c,i)}for(var s,a,c,d=[],i=e.scripts[0],o="onreadystatechange",f="readyState";s=r.shift();)a=e.createElement(t),"async"in i?(a.async=!1,e.head.appendChild(a)):i[f]?(d.push(a),a[o]=n):e.write("<"+t+' src="'+s+'" defer></'+t+">"),a.src=s}(document,"script",[
-  "/commons-0ac9175102ab29c567dd.js","/app-165a7dc326c85664b867.js","/path---404-html-a0e39f21c11f6a62c5ab.js","/component---src-pages-404-tsx-03a18a4d2ee38fca9bea.js","/component---src-layouts-index-tsx-c3aed5be7985b372b6e7.js"
+  "/commons-0ac9175102ab29c567dd.js","/app-98fe0b92832b3a94f027.js","/path---404-html-a0e39f21c11f6a62c5ab.js","/component---src-pages-404-tsx-03a18a4d2ee38fca9bea.js","/component---src-layouts-index-tsx-c3aed5be7985b372b6e7.js"
 ])
   </script><style id="gatsby-inlined-css">/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
@@ -202,10 +202,10 @@
 }
 
 .messages__container {
-  height: 240px;
+  height: 280px;
   margin: 0 auto;
   position: relative;
-  top: -50px;
+  top: -24px;
 }
 
 .messages__avatar-title {
@@ -343,6 +343,14 @@
   }
 }
 
+.content__divider {
+  background: #eee;
+  border: 0;
+  height: 1px;
+  margin: 64px auto;
+  width: 100%;
+}
+
 .bullets__container {
   align-items: center;
   display: flex;
@@ -424,6 +432,78 @@
   line-height: 16px;
   opacity: .7;
   margin: 0;
+  max-width: 260px;
+}
+
+.upcomingEvents__container {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 24px 48px;
+}
+
+.upcomingEvents__subtitle {
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+}
+
+.upcomingEvents__title {
+  font-size: 24px;
+  text-align: center;
+  margin: 12px 0 40px;
+}
+
+.upcomingEvents__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width:600px) {
+  .upcomingEvents__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.upcomingEvents__event {
+  padding: 12px 18px;
+}
+
+@media (min-width:600px) {
+  .upcomingEvents__event {
+    margin: 0 24px;
+  }
+}
+
+.upcomingEvents__event-subtitle {
+  font-size: 12px;
+  opacity: .7;
+}
+
+.upcomingEvents__event-title {
+  font-size: 16px;
+  margin: 6px 0 12px;
+}
+
+.upcomingEvents__event-title:before {
+  background: #e33535;
+  border-radius: 100%;
+  content: "";
+  display: inline-block;
+  height: 10px;
+  margin-right: 12px;
+  margin-left: -26px;
+  width: 10px;
+}
+
+.upcomingEvents__event h4 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  opacity: .7;
+  margin: 6px 0;
   max-width: 260px;
 }
 
@@ -804,6 +884,10 @@ textarea {
 
 details,menu {
   display: block;
+}
+
+summary {
+  display: list-item;
 }
 
 [hidden],template {
